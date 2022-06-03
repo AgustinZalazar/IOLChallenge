@@ -1,0 +1,43 @@
+.card {
+    display: flex;
+    width: 400px;
+    height: 150px;
+    background-color: rgba(47, 45, 45, 0.8);
+    border-radius: 16px;
+    gap: 30px;
+    align-items: center;
+}
+
+.img-character {
+    width: 120px;
+    height: 120px;
+    border-radius: 16px;
+    margin: 15px 0 15px 19px;
+}
+
+.card h1{
+    font-family: 'JustAnotherHand';
+    color: white;
+    font-size: 34px;
+    margin: 0;
+    line-height: 1;
+}
+
+.alive{
+    color: greenyellow;
+    font-family: JockeyOne;
+}
+.diffStatus{
+    color: red;
+    font-family: JockeyOne;
+}
+.info{
+    max-height: 120px;
+}
+
+
+@media only screen and (max-width: 700px) {
+    .card h1{
+        font-size: 20px;
+    }
+}

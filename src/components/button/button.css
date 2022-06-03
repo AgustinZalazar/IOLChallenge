@@ -1,0 +1,21 @@
+.button { 
+    background-color: #44CA42;
+    font-family: JockeyOne;
+    font-size: 20px;
+    color: white;
+    padding: 0 15px;
+    border-style: none;
+    border-radius: 10px;
+    cursor: pointer;
+}
+
+.button:hover{
+    background-color: #36a534;
+}
+.pagNext{
+    margin: 0 0 0 auto;
+}
+.button i{
+    font-size: 15px;
+    margin-right: 5px;
+}

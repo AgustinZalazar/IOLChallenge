@@ -1,0 +1,19 @@
+.container_favs {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+.cards-container_favs {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 20px;
+    max-width: 80%;
+    margin: 10px 0;
+}
+
+.favorites_title{
+    font-family: JockeyOne;
+    color: white;
+}
